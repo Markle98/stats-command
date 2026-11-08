@@ -26,7 +26,7 @@ public enum StatsMode {
     public String headerLabel() {
         switch (this) {
             case BOTH:
-                return " (Old world)";
+                return " §7(Old world)§r";
             case OLD:
                 return " (Old world only)";
             case TOTAL:
